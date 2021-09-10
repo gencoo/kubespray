@@ -7,7 +7,7 @@ etcd_cert_alt_names:
   - "etcd.kube-system"
   - "etcd"
 etcd_cert_alt_ips: []
-
+etcd_access_addresses: https://192.168.122.1:2379
 etcd_heartbeat_interval: "250"
 etcd_election_timeout: "5000"
 

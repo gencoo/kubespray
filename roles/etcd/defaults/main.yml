@@ -8,7 +8,12 @@ etcd_events_cluster_enabled: false
 
 etcd_backup_prefix: "/var/backups"
 etcd_data_dir: "/var/lib/etcd"
-
+etcd_peer_url: https://192.168.122.1:2380
+etcd_access_address: 192.168.122.1
+etcd_access_addresses: https://192.168.122.1:2379
+etcd_client_url: https://192.168.122.1:2379
+etcd_address: 192.168.122.1
+etcd_peer_addresses: etcd=https://192.168.122.1:2380
 # Number of etcd backups to retain. Set to a value < 0 to retain all backups
 etcd_backup_retention_count: -1
 
